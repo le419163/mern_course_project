@@ -1,0 +1,35 @@
+This is my build for the MERN course
+
+
+
+
+================================
+| EXPRESS BACK END APPLICATION |
+================================
+
+Express is a Node.js web application framework.
+
+Can be used to build out APIs for a back end.
+
+Connects to mongoDB for database. - mongo cluster connection string = mongo "mongodb+srv://dev-connector.arrce.mongodb.net/<dbname>" --username ryan123
+
+-----------------------------------------
+| Directory Structure of Social Web App |
+-----------------------------------------
+
+Models directory contains the database schema models.
+    - Posts object
+    - Profile object
+    - User object
+
+Config directory dictates mongo connection and other config data.
+
+Routes/API directory contains the api methods that make up the routes.
+
+Middleware directory contains functions that have access to req,res, & next (to do things in the 'middle' of the call, like authenticate token).
+
+The file 'server.js' contains the api routes, starts db connection and server port for app.
+
+Authentication:
+Register a user to the mongoDB
+Login with user to get token
