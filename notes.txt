@@ -1,5 +1,20 @@
 This is my build for the MERN course
 
+Uses React for front end
+Uses mongoDB for database, mongoose for object modeling in mongodb
+Uses Express for back end, uses Node.js
+Uses gravatar for user avatars
+Uses Postman for api development/testing
+Deploys to heroku
+
+Initialize and start app:
+use 'npm start' or 'npm run server' to run with nodemon
+make requests in postman after connecting to local host in postman
+need to authenticate user to get auth token, then make api calls
+
+How to connect to mongoDB for project:
+login to cloud.mongodb.com with ryandodson33@gmail.com and h password
+launch app to connect it to mongodb
 
 
 
@@ -26,7 +41,7 @@ Config directory dictates mongo connection and other config data.
 
 Routes/API directory contains the api methods that make up the routes.
 
-Middleware directory contains functions that have access to req,res, & next (to do things in the 'middle' of the call, like authenticate token).
+Middleware directory contains functions that have access to req, res, & next (to do things in the 'middle' of the call, like authenticate token).
 
 The file 'server.js' contains the api routes, starts db connection and server port for app.
 

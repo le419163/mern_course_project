@@ -1,4 +1,6 @@
 {
   "mongoURI": "mongodb+srv://ryan123:ryan123@dev-connector.arrce.mongodb.net/devcon1",
-  "jwtSecret": "mysecrettoken"
+  "jwtSecret": "mysecrettoken",
+  "githubClientId": "f802dd40698601eee462",
+  "githubSecret": "9b0d6077705622e6eb84efdb0532ca8196ef1396"
 }
